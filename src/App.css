@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+html { font-size: 100% }
+body { font-size: 0.75em }
+h1 { font-size: 2em }
+
+
+.top {
+    background-image: url("https://assets.newatlas.com/dims4/default/1237e0b/2147483647/strip/true/crop/1999x1328+0+0/resize/1440x957!/format/webp/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Ffe%2F06%2F75f2c8704c71ade9c8881c997c8f%2Fdepositphotos-41105113-l-2015.jpg");
+    min-height: 100%;
+    background-size: cover; 
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bottom {
+    background-image: url("https://www.maritime-executive.com/media/images/Sohar%20Max%20berthed%20at%20Oman%20Drydock%20(2).jpg");
+    min-height: 100%;
+    background-size: cover; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    text-align:center;
 }
