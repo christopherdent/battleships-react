@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+  
+import React from 'react';
+import SplitPane from 'react-split-pane';
+import Pane from 'react-split-pane';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Welcome to Battle, Ships 2</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+class App extends React.Component {
+
+  render() {
+    return (
+      
+
+      <SplitPane split="vertical">
+          <div>This is a div</div>
+          <div>This is a div</div>
+          <Pane><div>This is a pane with a div inside.</div></Pane>
+      </SplitPane>
+     );
+   }
+ }
 
 export default App;
